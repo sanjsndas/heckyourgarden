@@ -77,7 +77,7 @@ const Navbar8 = (props) => {
             </div>
             <nav className="navbar8-links2">
               <a
-                href={props.link1Url}
+                href=
                 className="navbar8-link12 thq-link thq-body-small"
               >
                 {props.link1 ?? (
@@ -86,7 +86,7 @@ const Navbar8 = (props) => {
                   </Fragment>
                 )}
               </a>
-              <a href={props.link2Url} className="thq-link thq-body-small">
+              <a href= className="thq-link thq-body-small">
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar8-text16">/plants</span>
@@ -94,7 +94,7 @@ const Navbar8 = (props) => {
                 )}
               </a>
               <a
-                href={props.link3Url}
+                href=
                 className="navbar8-link32 thq-link thq-body-small"
               >
                 {props.link3 ?? (
@@ -109,7 +109,7 @@ const Navbar8 = (props) => {
                   className="navbar8-trigger"
                 >
                   <span className="thq-link thq-body-small">
-                    {props.link4 ?? (
+                    {?? (
                       <Fragment>
                         <span className="navbar8-text21">/landscaping</span>
                       </Fragment>
@@ -134,7 +134,7 @@ const Navbar8 = (props) => {
                 </div>
                 {link5AccordionOpen === true && (
                   <div className="navbar8-container6">
-                    <a href={props.linkUrlPage1}>
+                    <a href=>
                       <div className="navbar8-menu-item1">
                         <img
                           alt={props.page1ImageAlt}
