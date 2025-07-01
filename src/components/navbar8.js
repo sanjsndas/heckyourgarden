@@ -15,47 +15,7 @@ const Navbar8 = (props) => {
           src={props.logoSrc}
           className="navbar8-image1"
         />
-        <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
-          <nav className="navbar8-links1">
-            <a
-              href={props.link1Url}
-              className="navbar8-link11 thq-link thq-body-small"
-            >
-              {props.link1 ?? (
-                <Fragment>
-                  <span className="navbar8-text18">/home</span>
-                </Fragment>
-              )}
-            </a>
-            <a href={props.link2Url} className="thq-link thq-body-small">
-              {props.link2 ?? (
-                <Fragment>
-                  <span className="navbar8-text16">/plants</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href={props.link3Url}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="navbar8-link31 thq-link thq-body-small"
-            >
-              {props.link3 ?? (
-                <Fragment>
-                  <span className="navbar8-text24">/outdoor-spaces</span>
-                </Fragment>
-              )}
-            </a>
-            <div
-              onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
-              className="navbar8-link4-dropdown-trigger"
-            >
-              <span className="thq-link thq-body-small">
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar8-text21">/landscaping</span>
-                  </Fragment>
-                )}
+       
               </span>
               <div className="navbar8-icon-container1">
                 {link5DropdownVisible === true && (
