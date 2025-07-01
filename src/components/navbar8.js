@@ -74,29 +74,7 @@ const Navbar8 = (props) => {
                 </svg>
               </div>
             </div>
-            <nav className="navbar8-links2">
-              <a className="navbar8-link12 thq-link thq-body-small">
-                {props.link1 ?? (
-                  <Fragment>
-                    <span className="navbar8-text18">/home</span>
-                  </Fragment>
-                )}
-              </a>
-              <a className="thq-link thq-body-small">
-                {props.link2 ?? (
-                  <Fragment>
-                    <span className="navbar8-text16">/plants</span>
-                  </Fragment>
-                )}
-              </a>
-              <a className="navbar8-link32 thq-link thq-body-small">
-                {props.link3 ?? (
-                  <Fragment>
-                    <span className="navbar8-text24">/outdoor-spaces</span>
-                  </Fragment>
-                )}
-              </a>
-            </nav>
+      
           </div>
         </div>
       </header>
