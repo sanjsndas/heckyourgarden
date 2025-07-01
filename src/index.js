@@ -17,6 +17,9 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/" />
     <Route path="/privacy" element={<PrivacyPolicy />} />
+import TermsAndConditions from './views/terms-and-conditions';
+
+<Route path="/terms" element={<TermsAndConditions />} />
 
         <Route component={NotFound} path="**" />
     
