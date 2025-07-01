@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './footer4.css'
 
 const Footer4 = () => {
@@ -15,11 +16,11 @@ const Footer4 = () => {
           </div>
 
           <div className="footer4-links">
-            <a href="/about" className="thq-body-small">About Us</a>
-            <a href="/contact" className="thq-body-small">Contact Us</a>
-            <a href="/faq" className="thq-body-small">FAQs</a>
-            <a href="/terms" className="thq-body-small">Terms and Conditions</a>
-            <a href="/privacy" className="thq-body-small">Privacy Policy</a>
+            <Link to="/about" className="thq-body-small">About Us</Link>
+            <Link to="/contact" className="thq-body-small">Contact Us</Link>
+            <Link to="/faq" className="thq-body-small">FAQs</Link>
+            <Link to="/terms" className="thq-body-small">Terms and Conditions</Link>
+            <Link to="/privacy" className="thq-body-small">Privacy Policy</Link>
           </div>
         </div>
 
@@ -30,9 +31,9 @@ const Footer4 = () => {
               <span className="thq-body-small">© 2024 Heck Your Garden</span>
             </div>
             <div className="footer4-footer-links">
-              <a href="/privacy" className="thq-body-small">Privacy Policy</a>
-              <a href="/terms" className="thq-body-small">Terms and Conditions</a>
-              <a href="/cookies" className="thq-body-small">Cookies Policy</a>
+              <Link to="/privacy" className="thq-body-small">Privacy Policy</Link>
+              <Link to="/terms" className="thq-body-small">Terms and Conditions</Link>
+              <Link to="/cookies" className="thq-body-small">Cookies Policy</Link>
             </div>
           </div>
         </div>
