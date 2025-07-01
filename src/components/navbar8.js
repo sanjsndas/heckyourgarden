@@ -426,25 +426,25 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  linkUrlPage4: 'https://www.teleporthq.io',
-  link2Url: 'https://www.teleporthq.io',
+  linkUrlPage4: '',
+  link2Url: '',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1597055181300-e3633a917c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MTMyNTg0MHw&ixlib=rb-4.1.0&q=80&w=1080',
   action1: undefined,
   page2ImageAlt: 'Image of different types of plants',
   link2: undefined,
-  linkUrlPage2: 'https://www.teleporthq.io',
+  linkUrlPage2: '',
   logoAlt: 'Heckyourgarden Logo',
   logoSrc:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
   page3ImageAlt: 'Image of a well-designed outdoor space',
-  linkUrlPage1: 'https://www.teleporthq.io',
+  linkUrlPage1: '',
   page1: undefined,
   link1: undefined,
   page4ImageSrc:
     'https://images.unsplash.com/photo-1499803270242-467f7311582d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MTMyNTg0MHw&ixlib=rb-4.1.0&q=80&w=1080',
-  linkUrlPage3: 'https://www.teleporthq.io',
+  linkUrlPage3: '',
   page4: undefined,
   page2: undefined,
   link4: undefined,
@@ -457,11 +457,11 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: 'https://www.teleporthq.io',
+  link1Url: '',
   page3Description: undefined,
   page1ImageAlt: 'Image of a beautiful garden',
   action2: undefined,
-  link3Url: 'https://www.teleporthq.io',
+  link3Url: '',
 }
 
 Navbar8.propTypes = {
