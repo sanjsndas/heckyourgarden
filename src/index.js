@@ -16,7 +16,10 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
+    <Route path="/privacy" element={<PrivacyPolicy />} />
+
         <Route component={NotFound} path="**" />
+    
         <Redirect to="**" />
       </Switch>
     </Router>
