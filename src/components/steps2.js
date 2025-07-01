@@ -14,10 +14,7 @@ const Steps2 = (props) => {
               Discover the Power of Our Products
             </h2>
             <p className="thq-body-large">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+             Our research-driven approach combines botanical science with practical cultivation techniques to help you successfully grow desert-adapted plants in any climate. We specialize in water-efficient species that thrive in challenging conditions.
             </p>
             <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">
